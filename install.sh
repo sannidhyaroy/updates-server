@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 app_name=zen
 literal_name_of_installation_directory="src"
 universal_path_for_installation_directory="/usr/local/$literal_name_of_installation_directory"
